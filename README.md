@@ -1,0 +1,2 @@
+# Meddical
+Hospital Management System

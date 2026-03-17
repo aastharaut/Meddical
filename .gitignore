@@ -1,0 +1,40 @@
+# Dependency directories
+**/node_modules/
+**/node_modules
+
+# Backend build/output
+Backend/dist/
+Backend/build/
+Backend/coverage/
+
+# Frontend build/output
+Frontend/dist/
+Frontend/build/
+Frontend/coverage/
+Frontend/.vite/
+Frontend/.next/
+
+# Environment files
+**/.env
+**/.env.local
+**/.env.*.local
+
+# Logs
+**/*.log
+**/npm-debug.log*
+**/yarn-debug.log*
+**/yarn-error.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Temp files
+*.tmp
+*.temp
