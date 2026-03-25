@@ -17,7 +17,10 @@ const User = sequelize.define(
     age: {
       type: DataTypes.INTEGER,
       allowNull: false,
-      validate: { min: 10, max: 100 },
+      validate: {
+        min: 10,
+        max: 100,
+      },
     },
     email: {
       type: DataTypes.STRING,
@@ -25,6 +28,7 @@ const User = sequelize.define(
       allowNull: false,
       validate: {
         isEmail: true,
+        notEmpty: true,
       },
     },
     role: {
@@ -36,6 +40,7 @@ const User = sequelize.define(
     phone: {
       type: DataTypes.STRING,
       unique: true,
+      allowNull: true,
     },
 
     password: {
