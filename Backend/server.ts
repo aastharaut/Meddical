@@ -1,5 +1,6 @@
 import express from "express";
 import appRoutes from "./routes";
+import "./models";
 
 const app = express();
 app.use(express.json());
